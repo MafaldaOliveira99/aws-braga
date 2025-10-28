@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       ambiente:
-        type: enviornment
+        type: environment
 
       nome:
         default: Mafalda
