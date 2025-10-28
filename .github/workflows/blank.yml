@@ -8,7 +8,26 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      name: Ambiente
+      type: enviornment
 
+      name: Nome
+      default: Mafalda
+
+      name: Apelido
+      default: Oliveira
+
+      name: Confirme
+      type: boolean
+
+      name: Cidade
+      type: choice
+      - Lisboa
+      - Braga
+      - Porto
+      - Coimbra
+      
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
