@@ -3,4 +3,4 @@ import sys
 
 v1= sys.argv[1]
 v2= sys.argv[2]
-print("Soma", v1 + v2)
+print("Soma", int(v1) + int(v2))
